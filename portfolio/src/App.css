@@ -1,0 +1,81 @@
+.App {
+  width: 100vw; 
+  height: 100%;
+  background-color: var(--dark-blue);
+  padding: 2em;
+}
+.content{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+  color: var(--lime)
+}
+
+h1::before, 
+h1::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.titleName::before{
+  background-color: var(--dark-blue);
+  animation: typewriter 2s steps(12) forwards;
+}
+.titleName::after{
+  width: 0.125em;
+  background-color: var(--light-lime);
+  animation: typewriterCursor1 2s steps(12) forwards;
+}
+
+.titleTitle::before{
+  background-color: var(--dark-blue);
+  animation: typewriter 3s steps(14) forwards;
+  animation-delay: 2.2s;
+}
+.titleTitle::after{
+  width: 0.125em;
+  background-color: var(--light-lime);
+  animation: typewriterCursor2 3s steps(14) forwards;
+  animation-delay: 2.2s;
+  opacity: 0;
+}
+
+@keyframes typewriter {
+  100%{
+    left: 100%;
+  }
+}
+@keyframes typewriterCursor1 {
+  99%{
+    opacity: 1;
+  }
+  100%{
+    left: 100%;
+    opacity: 0;
+  }
+}
+@keyframes typewriterCursor2 {
+  0%{
+    opacity: 0;
+  }
+  1%{
+    opacity: 1;
+  }
+  99%{
+    opacity: 1;
+  }
+  100%{
+    left: 100%;
+  }
+}
