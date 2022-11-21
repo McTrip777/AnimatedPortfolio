@@ -11,7 +11,20 @@
       transform: translate(0%);
     }
 }
-
+@keyframes ArrowFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(0px) rotate(0deg)
+    }
+    85% {
+      opacity: 1;
+      transform: translateX(160px) rotate(140deg)
+    }
+    100% {
+        transition: all 1s !important;
+        transform: translateX(155px) rotate(180deg)
+    }
+}
 .cNavContainer {
   transition: all 1s;
   /* background-color: var(--dark-blue); */
@@ -20,31 +33,32 @@
   top: 10px;
   transform: translate(-110%);
   opacity: 0;
+  z-index: 100;
 }
 .visible {
   transform: translate(0%);
   opacity: 1;
 }
 .right {
-  left: 25% !important;
-  transition: all 1s !important;
-  transform: rotate(180deg);
+  animation: ArrowFadeIn 1s linear;
+  animation-fill-mode: both;
 }
 .arrow {
-  width: 30px;
   height: 30px;
   color: var(--lime);
-  position: fixed;
   left: 3%;
   top: 3%;
   transition: all 1s;
 }
+.arrowSvg{
+
+}
 .hoverStyles {
-  color: var(--lime) !important;
+  color: var(--dark-blue) !important;
   text-decoration: none !important;
   position: relative;
   border-radius: 50%;
-  background-color: var(--light-lime);
+  background-color: var(--lime);
   height: 150px;
   width: 150px;
   margin-bottom: 20px;
@@ -67,7 +81,7 @@
 }
 .active,
 .hoverStyles:hover {
-  background-color: var(--lime);
+  background-color: var(--teal);
   color: var(--light-lime) !important;
 }
 .hoverStyles h2 {

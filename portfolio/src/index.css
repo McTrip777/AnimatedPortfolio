@@ -19,5 +19,8 @@ code {
   --lime: #84a98c;
   --teal: #52796f;
   --dark-teal: #354f52;
-  --dark-blue: #2f3e46;
+  --blue: #2f3e46;
+  --dark-blue: #09151a;
+  --darker-blue: #020c11;
+  --darkest-blue: #00090d;
 }
