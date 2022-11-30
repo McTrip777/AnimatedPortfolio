@@ -11,9 +11,9 @@ const Projects = (props) => {
             <div className="projectTextContainer">
                 <h2>{ProjectData[index].name}</h2>
                 <p>{ProjectData[index].description}</p>
-                {/* <a href={ProjectData[index].url} target="_blank"> */}
-                    {/* <img src={images[index]}></img> */}
-                {/* </a> */}
+                {/* <a href={ProjectData[index].url} target="_blank">
+                    <img src={images[index]}></img>
+                </a> */}
             </div>
         </div>
         return currentProj
@@ -54,11 +54,11 @@ const Projects = (props) => {
             <div className="projectTitle">
                 <h2>PROJECTS</h2>
             </div>
-            <div className="projectButtons left" onClick={decrement}><p>&#8592;</p></div>
+            <div className="projectButtons arrowLeft" onClick={decrement}><p>&#8592;</p></div>
             <div className="allProjects">
                 {projectDisplay()}
             </div>
-            <div className="projectButtons right" onClick={increment}><p>&#8594;</p></div>
+            <div className="projectButtons arrowRight" onClick={increment}><p>&#8594;</p></div>
         </div>
     )
 }

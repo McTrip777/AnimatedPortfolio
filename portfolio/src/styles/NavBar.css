@@ -49,6 +49,7 @@
   left: 3%;
   top: 3%;
   transition: all 1s;
+  z-index: 100;
 }
 .arrowSvg{
 

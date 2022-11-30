@@ -1,0 +1,26 @@
+    /* APPLIED IN APP.CSS */
+    /* 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; 
+    */
+    /* ------------------- */
+.aboutInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.skillImgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.skillImg{
+    height: 4em;
+    object-fit: contain;
+}

@@ -1,0 +1,144 @@
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .moon{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: var(--light-lime);
+    border-radius: 50%;
+    top:15%;
+    left: 36%;
+    z-index: 10;
+  }
+  
+  .moonOverlay{
+    opacity: .3;
+  }
+  
+  .trees{
+    width: 70%;
+    top:0;
+  }
+  
+  .sparks{
+    position: absolute;
+    border-radius: 1em;
+    height: 2em;
+    width: 2em;
+    background-color: aqua;
+  }
+  
+  .treesBehind{
+    width: 70%;
+    transform: scale(-1,1);
+  }
+  .titleWrap{
+    width: 80%;
+    border-radius: 30px;
+    /* border: 6px dashed var(--lime); */
+    padding: 2.5em;
+    background-color: var(--darkest-blue);
+  }
+  h4{
+    color: var(--lime);
+  }
+  .preTitle{
+  
+  }
+  h1{
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--light-lime)
+  }
+  
+  h1::before, 
+  h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .titleName{
+    font-size: 3.5em;
+  }
+  .titleName::before{
+    background-color: var(--darkest-blue);
+    animation: typewriter 2s steps(12) forwards;
+  }
+  .titleName::after{
+    width: 0.125em;
+    background-color: var(--light-lime);
+    animation: typewriterCursor1 2s steps(12) forwards;
+  }
+  .titleTitle{
+    font-size: 2.1em;
+  }
+  
+  .titleTitle::before{
+    background-color: var(--darkest-blue);
+    animation: typewriter 3s steps(27) forwards;
+    animation-delay: 2.2s;
+  }
+  .titleTitle::after{
+    width: 0.125em;
+    background-color: var(--light-lime);
+    animation: typewriterCursor2 3s steps(27) forwards;
+    animation-delay: 2.2s;
+    opacity: 0;
+  }
+
+
+  /* Media Queries */
+
+  @media(max-width: 1000px){
+    .moon{
+      width: 60px;
+      height: 60px;
+    }
+  }
+  @media(max-width: 600px){
+    .moon{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+    /* Key Frames */
+
+  @keyframes typewriter {
+    100%{
+      left: 100%;
+    }
+  }
+  @keyframes typewriterCursor1 {
+    99%{
+      opacity: 1;
+    }
+    100%{
+      left: 100%;
+      opacity: 0;
+    }
+  }
+  @keyframes typewriterCursor2 {
+    0%{
+      opacity: 0;
+    }
+    1%{
+      opacity: 1;
+    }
+    99%{
+      opacity: 1;
+    }
+    100%{
+      left: 100%;
+    }
+  }

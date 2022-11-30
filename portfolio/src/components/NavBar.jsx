@@ -1,5 +1,6 @@
 import Nav from "react-bootstrap/Nav";
-import "../styles/NavBar.css";
+import "../styles/navBar.css";
+import {Link, Outlet} from 'react-router-dom'
 
 const NavBar = () => {
 
@@ -27,20 +28,21 @@ const NavBar = () => {
         defaultActiveKey="/home"
         className="cNavContainer h2 d-flex flex-column"
       >
-        <Nav.Link onClick={navEffect} eventKey="link-1" className="hoverStyles">
+        <Link to="/home" onClick={navEffect} eventKey="link-1" className="hoverStyles">
           <h2>Home</h2>
-        </Nav.Link>
-        <Nav.Link onClick={navEffect} eventKey="link-2" className="hoverStyles">
+        </Link>
+        <Link onClick={navEffect} eventKey="link-2" className="hoverStyles">
           <h2>About</h2>
-        </Nav.Link>
-        <Nav.Link onClick={navEffect} eventKey="link-3" className="hoverStyles">
+        </Link>
+        <Link to="/projects" onClick={navEffect} eventKey="link-3" className="hoverStyles">
           <h2>Projects</h2>
-        </Nav.Link>
-        <Nav.Link onClick={navEffect} eventKey="link-4" className="hoverStyles">
+        </Link>
+        <Link onClick={navEffect} eventKey="link-4" className="hoverStyles">
           <h2>Contact</h2>
-        </Nav.Link>
+        </Link>
         {/* <Nav.Link eventKey="disabled" disabled>Disabled</Nav.Link> */}
       </Nav>
+      <Outlet />
     </div>
   );
 };

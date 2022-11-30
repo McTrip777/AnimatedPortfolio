@@ -1,0 +1,11 @@
+.cabinPathContainer{
+    position: absolute;
+    max-height: 100vh;
+}
+.door{
+    
+}
+.doorContainer:hover{
+    fill: var(--lime);
+    padding: 10%;
+}
