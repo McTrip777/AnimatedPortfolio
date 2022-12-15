@@ -1,0 +1,70 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+    .contactHeader{
+        font-family: 'Roboto Mono', monospace;
+    }
+        .contactHeader h2{
+
+        }
+        .contactHeader p{
+
+        }
+    .row{
+        width: 50%;
+    }
+        .nameEmailContainer{
+            display: flex;
+            padding:1em 0 !important;
+        }
+            .nameEmail{
+                padding: 1em;    
+                width: 50%;
+                border: 2px solid var(--teal);
+            }
+            .name{
+
+            }
+            .email{
+
+            }
+        .subMessage{
+            border: 2px solid var(--teal);
+        }
+        .buttons{
+            padding:1em 0 !important;
+            display: flex;
+            justify-content: space-between;
+        }
+            .butn{
+                border-radius: 10px;
+                padding: .5em;
+                border: 2px solid var(--light-lime);
+                box-shadow: 2px 2px var(--teal);
+                background-color: var(--light-lime);
+            }
+            .btnOne{
+                color: var(--lime);
+            }
+            .activeBtn{
+                background-color: var(--dark-teal);
+                color:var(--light-lime);
+            }
+            .activeBtn:hover{
+                background-color: var(--lime);
+                color:var(--dark-teal);
+                box-shadow: none;
+            }
+            .clearBtn{
+                background-color: var(--light-lime);
+                color: var(--dark-blue);
+                
+            }
+            .clearBtn:hover{
+                background-color: rgb(255, 181, 181);
+                box-shadow: none;
+            }

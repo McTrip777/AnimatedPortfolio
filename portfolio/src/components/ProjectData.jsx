@@ -1,6 +1,7 @@
 import Floor from "../images/floors.png";
 import Pizza from "../images/pizza.png";
-import Twraps from "../images/twraps.png";
+import Twraps from "../images/Twraps.png";
+import EliteWraps from "../images/EliteWraps.png";
 import AlgoImg from "../images/algoImg.jpeg";
 import SharePlaces from "../images/Share-places.png";
 
@@ -15,7 +16,7 @@ export const ProjectData = [
     name: "Algos",
     img: AlgoImg,
     url: "https://all-sorting-algorithms.netlify.app/",
-    github: "https://github.com/McTrip777/AllSortingAlgos",
+    github: "https://github.com/McTrip777/AllSortingAlgos"
   },
   {
     name: "Floors Plus",
@@ -34,6 +35,12 @@ export const ProjectData = [
     img: Twraps,
     url: "https://t-wraps.netlify.app/",
     github: "https://github.com/McTrip777/Twraps",
+  },
+  {
+    name: "Elite Wraps",
+    img: EliteWraps,
+    url: "https://www.elitewraps.com/",
+    github: "https://github.com/McTrip777/EliteWraps",
   },
   
 ];
