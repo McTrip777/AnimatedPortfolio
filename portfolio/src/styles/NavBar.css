@@ -45,14 +45,17 @@
 }
 .arrow {
   height: 30px;
+  width: 30px;
   color: var(--lime);
   left: 3%;
   top: 3%;
   transition: all 1s;
   z-index: 100;
+  cursor: pointer;
 }
-.arrowSvg{
-
+.arrow:hover .arrowSvg{
+  filter: drop-shadow(1px 0 var(--light-lime));
+  fill: var(--teal);
 }
 .hoverStyles {
   color: var(--dark-blue) !important;

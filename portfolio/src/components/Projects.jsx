@@ -61,7 +61,7 @@ const Projects = (props) => {
     return (
         <div className="projectContainer">
             <div className="projectTitle">
-                <h2>PROJECTS</h2>
+                <h2>Projects</h2>
             </div>
             <div className="allProjects">
                 <div className="projectButtons arrowLeft" onClick={decrement}><p>&#8592;</p></div>

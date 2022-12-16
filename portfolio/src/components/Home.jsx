@@ -8,13 +8,13 @@ import "../styles/home.css"
 const Home = () => {
   return (
     <>
-      <div className='content title'>
+      <div className='content title' id='title'>
         <Title/>
       </div>
       <div className='content cabin'>
         <Cabin />
       </div>
-      <div className='content contact'>
+      <div className='content contact' id='contact'>
         <Contact/>
       </div>
     </>
