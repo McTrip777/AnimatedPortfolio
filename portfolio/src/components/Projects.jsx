@@ -45,7 +45,7 @@ const Projects = (props) => {
             <div className="projectTextContainer">
                 {/* <p>{ProjectData[index].description}</p> */}
                 <a href={proj.url} target="_blank" rel="noreferrer">
-                    <img src={images[index]} alt="" className='projectImage'/>
+                    <img src={images[index] ? images[index] : "https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"} alt="" className='projectImage'/>
                 </a>
                 <div className='projectDetails'>
                     <h2>{proj.name}</h2>
