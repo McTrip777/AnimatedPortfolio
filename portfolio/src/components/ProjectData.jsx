@@ -1,6 +1,6 @@
 import Floor from "../images/floors.png";
 import Pizza from "../images/pizza.png";
-import TWraps from "../images/Twraps.png";
+import TWraps from "../images/TWraps.png";
 import EliteWraps from "../images/EliteWraps.png";
 import AlgoImg from "../images/algoImg.jpeg";
 
