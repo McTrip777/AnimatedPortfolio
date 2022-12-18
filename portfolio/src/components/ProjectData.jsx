@@ -1,6 +1,6 @@
 import Floor from "../images/floors.png";
 import Pizza from "../images/pizza.png";
-import TWraps from "../images/TWraps.png";
+// import TWraps from "../images/TWraps.png";
 import EliteWraps from "../images/EliteWraps.png";
 import AlgoImg from "../images/algoImg.jpeg";
 
@@ -29,12 +29,12 @@ export const ProjectData = [
     url: "https://jacobspizzasite.netlify.app/",
     github: "https://github.com/McTrip777/PizzaSite",
   },
-  {
-    name: "T-Wraps",
-    img: TWraps,
-    url: "https://t-wraps.netlify.app/",
-    github: "https://github.com/McTrip777/Twraps",
-  },
+  // {
+  //   name: "T-Wraps",
+  //   img: TWraps,
+  //   url: "https://t-wraps.netlify.app/",
+  //   github: "https://github.com/McTrip777/Twraps",
+  // },
   {
     name: "Elite Wraps",
     img: EliteWraps,
