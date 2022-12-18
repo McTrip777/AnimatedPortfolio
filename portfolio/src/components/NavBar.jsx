@@ -1,6 +1,6 @@
 import Nav from "react-bootstrap/Nav";
-import "../styles/navbar.css";
-import {Outlet} from 'react-router-dom'
+import '../styles/navbar.css';
+import {Outlet} from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const NavBar = () => {
