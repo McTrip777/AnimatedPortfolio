@@ -28,7 +28,7 @@ const Title = () => {
       <div className="titleWrap d-flex justify-content-center align-items-start flex-column">
         <h4 className="preTitle">Hi, my name is</h4>
         <h1 className="titleName">Jacob McFaul</h1>
-        <h1 className="titleTitle">I am a Front End Developer.</h1>
+        <h1 className="titleTitle">I am a Front End Developer</h1>
         <h4>
           I am a motivated developer with experience creating custom front end
           websites. Looking to use my skills to make a difference and serve a

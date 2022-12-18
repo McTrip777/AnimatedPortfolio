@@ -75,6 +75,13 @@
     height: 80%;
     border-radius: 15px;   
     max-height: 50em;
+    aspect-ratio: 16 / 9;
+}
+.projectTextContainer a .projectImage:hover{
+    box-shadow: 3px 3px 2px var(--blue), 
+                3px -3px 2px var(--blue), 
+                -3px 3px 2px var(--blue), 
+                -3px -3px 2px var(--blue);
 }
 .projectTextContainer .projectDetails{
     display: flex;
@@ -91,4 +98,12 @@
 .projectTextContainer .projectDetails a img{
     background-color: var(--lime);
     padding:2px;
+    aspect-ratio: 1/1;
+}
+.projectTextContainer .projectDetails a .githubLink:hover{
+    background-color: var(--light-lime);
+    box-shadow: 2px 2px 2px var(--blue),
+                -2px -2px 2px var(--blue),
+                -2px 2px 2px var(--blue),
+                2px -2px 2px var(--blue);
 }

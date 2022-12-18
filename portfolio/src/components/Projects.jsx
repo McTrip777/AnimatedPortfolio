@@ -45,12 +45,12 @@ const Projects = (props) => {
             <div className="projectTextContainer">
                 {/* <p>{ProjectData[index].description}</p> */}
                 <a href={proj.url} target="_blank" rel="noreferrer">
-                    <img src={images[index]} alt=""></img>
+                    <img src={images[index]} alt="" className='projectImage'/>
                 </a>
                 <div className='projectDetails'>
                     <h2>{proj.name}</h2>
                     <a href={proj.github}>
-                        <img src={github} alt="Github Link" />
+                        <img src={github} alt="Github Link" className='githubLink'/>
                     </a>
                 </div>
             </div>

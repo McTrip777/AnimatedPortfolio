@@ -7,6 +7,7 @@ form{
 }
     .contactHeader{
         font-family: 'Roboto Mono', monospace;
+        text-align: center;
     }
         .contactHeader h2{
 
@@ -68,3 +69,9 @@ form{
                 background-color: rgb(255, 181, 181);
                 box-shadow: none;
             }
+
+@media(max-width:800px){
+    .row{
+        width: 75%;
+    }
+}

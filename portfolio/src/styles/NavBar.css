@@ -54,7 +54,7 @@
   cursor: pointer;
 }
 .arrow:hover .arrowSvg{
-  filter: drop-shadow(1px 0 var(--light-lime));
+  filter: drop-shadow(-1px 0 var(--light-lime));
   fill: var(--teal);
 }
 .hoverStyles {

@@ -32,7 +32,7 @@ const Contact = (props) => {
             method="POST">
             <header className="contactHeader">
                 <h2>Interested in working together?</h2>
-                <p>Hit me up!</p>
+                <p>Shoot me a message!</p>
             </header>
             <div className="row">
                 <div className="nameEmailContainer">
