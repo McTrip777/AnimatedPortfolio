@@ -29,7 +29,7 @@ const NavBar = () => {
         defaultActiveKey="/home"
         className="cNavContainer h2 d-flex flex-column"
       >
-        <Link to="/home#title" onClick={navEffect} eventKey="link-1" className="hoverStyles">
+        <Link to="/#title" onClick={navEffect} eventKey="link-1" className="hoverStyles">
           <h2>Home</h2>
         </Link>
         <Link onClick={navEffect} eventKey="link-2" className="hoverStyles">
@@ -38,7 +38,7 @@ const NavBar = () => {
         <Link to="/projects" onClick={navEffect} eventKey="link-3" className="hoverStyles">
           <h2>Projects</h2>
         </Link>
-        <Link to="/home#contact" onClick={navEffect} eventKey="link-4" className="hoverStyles">
+        <Link to="/#contact" onClick={navEffect} eventKey="link-4" className="hoverStyles">
           <h2>Contact</h2>
         </Link>
         {/* <Nav.Link eventKey="disabled" disabled>Disabled</Nav.Link> */}

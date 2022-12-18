@@ -18,7 +18,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/projects' element={<Projects/>}/>
-        <Route path='/home' element={<Home />}/>
+        <Route path='/' element={<Home />}/>
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>
