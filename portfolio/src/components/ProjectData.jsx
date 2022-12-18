@@ -1,9 +1,8 @@
 import Floor from "../images/floors.png";
 import Pizza from "../images/pizza.png";
-import Twraps from "../images/Twraps.png";
+import TWraps from "../images/Twraps.png";
 import EliteWraps from "../images/EliteWraps.png";
 import AlgoImg from "../images/algoImg.jpeg";
-import SharePlaces from "../images/Share-places.png";
 
 export const ProjectData = [
   // {
@@ -32,7 +31,7 @@ export const ProjectData = [
   },
   {
     name: "T-Wraps",
-    img: Twraps,
+    img: TWraps,
     url: "https://t-wraps.netlify.app/",
     github: "https://github.com/McTrip777/Twraps",
   },
