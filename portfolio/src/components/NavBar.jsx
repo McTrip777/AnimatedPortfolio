@@ -25,10 +25,7 @@ const NavBar = () => {
         <svg className="svg-icon__arrow--right arrow position-fixed" onClick={navEffect} viewBox="0 0 7 12"  preserveAspectRatio="MinYMin" xmlns="http://www.w3.org/2000/svg">
             <path className="arrowSvg" fill="#84a98c" d="M6.893 5.967c0-.268-.107-.524-.295-.713L1.724.37C1.33-.024.692-.024.3.37c-.394.394-.394 1.033 0 1.427l4.162 4.17L.3 10.137c-.394.394-.394 1.033 0 1.427.392.394 1.03.394 1.424 0L6.598 6.68c.188-.19.295-.445.295-.713z"/>
         </svg>
-      <Nav
-        defaultActiveKey="/home"
-        className="cNavContainer h2 d-flex flex-column"
-      >
+      <div className="cNavContainer h2 d-flex flex-column">
         <Link to="/#title" onClick={navEffect} eventKey="link-1" className="hoverStyles">
           <h2>Home</h2>
         </Link>
@@ -42,7 +39,7 @@ const NavBar = () => {
           <h2>Contact</h2>
         </Link>
         {/* <Nav.Link eventKey="disabled" disabled>Disabled</Nav.Link> */}
-      </Nav>
+      </div>
       <Outlet />
     </div>
   );
