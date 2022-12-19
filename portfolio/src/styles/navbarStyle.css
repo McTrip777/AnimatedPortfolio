@@ -70,7 +70,23 @@
   right:0;
   bottom:0;
   position: absolute;
-  
+}
+
+@media(max-width:420px){
+  .cNavContainer{
+
+  }
+  .hoverStyles {
+    height: 100px;
+    width: 100px;
+  }
+  .arrow {
+    left: 1%;
+    top: 3%;
+  }
+  .hoverStyles h2 {
+    font-size: .8em;
+  }
 }
 
 @keyframes FadeIn {

@@ -29,7 +29,7 @@ const Title = () => {
         <h4 className="preTitle">Hi, my name is</h4>
         <h1 className="titleName">Jacob McFaul</h1>
         <h1 className="titleTitle">I am a Front End Developer</h1>
-        <h4>
+        <h4 className="titleDesc">
           I am a motivated developer with experience creating custom front end
           websites. Looking to use my skills to make a difference and serve a
           greater purpose.

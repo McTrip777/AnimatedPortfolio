@@ -41,9 +41,7 @@
   h4{
     color: var(--lime);
   }
-  .preTitle{
-  
-  }
+
   h1{
     position: relative;
     font-family: 'Roboto Mono', monospace;
@@ -98,6 +96,13 @@
     }
   }
   @media(max-width: 800px){
+
+    .titleName{
+      font-size: 2.5em;
+    }
+    .titleTitle{
+      font-size: 1.8em;
+    }
     .titleName::before{
       background-color: transparent;
       animation: none;
@@ -115,11 +120,29 @@
       background-color: transparent;
       animation: none;
     }
+    .titleWrap{
+      width: 90%;
+      padding: 1.5em;
+    }
+    .titleDesc{
+      font-size: 1em;
+    }
+    .preTitle{
+      font-size: 1em;
+    }
   }
   @media(max-width: 600px){
     .moon{
-      width: 40px;
-      height: 40px;
+      width: 45px;
+      height: 45px;
+      top:10%;
+    }
+  }
+  @media(max-width: 374px){
+    .moon{
+      width: 30px;
+      height: 30px;
+      top:6%;
     }
   }
   
