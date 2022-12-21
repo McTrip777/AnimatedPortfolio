@@ -1,0 +1,24 @@
+.noPage{
+    max-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.noPage h1{
+    color: var(--light-lime);
+}
+
+.noPage .returnLink{
+    text-decoration: none;
+    color: var(--lime);
+    font-size: 3em;
+    line-height: 1em;
+}
+.noPage .returnLink:hover{
+    text-decoration: none;
+    color: var(--dark-blue);
+    cursor: pointer;
+}

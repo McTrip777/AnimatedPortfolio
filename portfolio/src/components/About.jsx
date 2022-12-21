@@ -15,9 +15,12 @@ const About = () => (
     </div>
     <p>
       I am a motivated developer with experience creating custom websites
-      using React/JS, HTML and CSS. I have strong collaboration and leadership
-      skills having a good deal of experience working on teams.
+      using React.js, Javascript, HTML and CSS. I have experience in 
+      logo design as well as other areas of design. I have become familiar 
+      with certain CSS preprocessors such as less and sass. 
     </p>
+    <p>Outside of the skills mentioned I have dabbled in Python, Java, C# with Unity, C++, and Ruby on Rails</p>
+    
     <div className="skillImgContainer">
       <img src={html} alt="" className="skillImg" />
       <img src={css} alt="" className="skillImg" />

@@ -4,6 +4,7 @@ import Projects from './components/Projects';
 import NavBar from './components/NavBar';
 import NoPage from './components/NoPage';
 import Home from './components/Home';
+import About from './components/About'
 import {
   Route,
   Routes,
@@ -18,6 +19,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/projects' element={<Projects/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='/' element={<Home />}/>
         <Route path="*" element={<NoPage />} />
       </Routes>

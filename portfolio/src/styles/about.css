@@ -13,14 +13,34 @@
     align-items: center;
     justify-content: center;
     padding: 10%;
+    height: 100%;
+    min-height: 100vh;
+    color: var(--light-lime);
+    text-align: center;
 }
 
 .skillImgContainer{
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skillImgSplit{
+    display: flex;
+    width: 50%;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 .skillImg{
     height: 4em;
     object-fit: contain;
+}
+
+@media(max-width: 450px){
+    .skillImg{
+        height: 4em;
+        max-width: 50%;
+        margin: 1em;
+        object-fit: contain;
+    }
 }
